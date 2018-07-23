@@ -1,0 +1,10 @@
+Hi,
+You can follow below steps:
+1. download QA2QE project zip on your local
+2. setup jenkins on your system
+3. add cucumber-reports plugin to jenkins
+4. create a freestyle project in jenkins with the project files downloaded from QA2QE
+5. configure jenkins project with post build action as cucumer reports. populate 
+"json report path" & "File pattern" fields with .json file path &json file name respectively.
+6. build your project
+7. after successful build select "cucumber-reports".
